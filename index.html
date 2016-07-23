@@ -4,10 +4,95 @@
 <head>
   <meta charset="utf-8">
   <title>Music History</title>
+  <link rel="stylesheet" type="text/css" href="music.css">
 </head>
-
 <body>
+<nav>
+<ul>
+	<li>View Music</li>
+	<li><a href="#a">Add Music</a></li>
+	<li><a href="#p">Profile</a></li>
+</ul>
+</nav>
 
+<div class="genres">
+	<div>Song length:
+		<input type="range" min="0" max="50" value="25">
+	</div>	
+
+	<div class="dropdown">Artist:
+		<select>
+  			<option value="1">1</option>
+  			<option value="2">2</option>
+  			<option value="3">3</option>
+  			<option value="4">4</option>
+	</select>
+	</div>
+
+<div class="dropdown">Album:
+<select>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+</select>
+</div>
+
+
+<div class="check1">
+
+<input type="checkbox" name="genre" value="rock">Rock
+<input type="checkbox" name="genre" value="pop">Pop
+<input type="checkbox" name="genre" value="blues">Blues
+</div>
+<div>
+<input type="checkbox" name="genre" value="classical">Classical
+<input type="checkbox" name="genre" value="jazz">Jazz
+<input type="checkbox" name="genre" value="hiphop">Hip hop
+</div>
+
+
+<div><button class="button" type="button">Filter</button></div>
+</div>
+
+<section>
+	<article>
+	<h3>Song Name</h3>
+		<ul>
+			<li>Artist Name</li>
+			<li>Album Name</li>
+			<li>Genre</li>
+
+		</ul>
+	</article>
+	<article>
+	<h3>Song Name</h3>
+		<ul>
+			<li>Artist Name</li>
+			<li>Album Name</li>
+			<li>Genre</li>
+
+		</ul>
+	</article>
+	<article>
+	<h3>Song Name</h3>
+		<ul>
+			<li>Artist Name</li>
+			<li>Album Name</li>
+			<li>Genre</li>
+
+		</ul>
+	</article>
+	<article>
+	<h3>Song Name</h3>
+		<ul>
+			<li>Artist Name</li>
+			<li>Album Name</li>
+			<li>Genre</li>
+
+		</ul>
+	</article>
+</section>
 
 </body>
 </html>
