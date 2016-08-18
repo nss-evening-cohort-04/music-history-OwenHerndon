@@ -20,6 +20,13 @@ li {
 section{
 	border: 2px solid black;
 	background: #FEFAC0;
+	margin: 25px;
+    padding: 25px;
+    width: 515px;
+    margin-left: -750px;
+    margin-right: 40px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .genres{
@@ -62,4 +69,9 @@ input[type=checkbox]{
 	float: left;
 	padding-right: 25px;
     padding-left: 15px;
+}
+
+.flex {
+	display: flex;
+
 }
